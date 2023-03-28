@@ -1,16 +1,10 @@
 //códigos a serem reescritos
 
 // a)
-if(nome === "José"){
-	console.log("Oi, Zé!")
-} else {
-	console.log("Olá, " + nome)
-}
+const nome = prompt("Digite seu nome de usuário:")
+nome ? console.log(`Olá, ${nome}`) : console.log("Faça seu login")
 
 
 // b)
-if(idade >= 18){
-	console.log("Pode tirar carteira de motorista!")
-} else {
-	console.log("Ainda não pode tirar carteira de motorista!")
-}
+const idade = Number(prompt("Digite sua idade:"))
+idade >= 18 ? console.log("Pode tirar carteira de motorista!") : console.log("Ainda não pode tirar carteira de motorista!")
